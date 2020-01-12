@@ -4,12 +4,22 @@
 
 ```
 [alias]
+[alias]
 	s = status
 	f = reset head --hard
 	cm = checkout master
 	cd = checkout development
+	ac = !git add . && git commit -am
+	
+	#pretty printing
 	lm = log-magic
 	log-magic = log -20 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	
+	#list all branches
+	super-b = branch --all --format='%(refname:short)'
+	
+	# list aliases
+    la = "!git config -l | grep alias | cut -c 7-"
 ```
 
 # Explanations
