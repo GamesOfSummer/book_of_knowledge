@@ -6,6 +6,7 @@ One or two of these things is fine, or is a fact of life. If your company is doi
 * No QAs
 * No BAs/PMs
 * No CI/CD
+* Standups are more than 15 minutes - everyday, without fail
 * Thinking that production and the QA environments are the same - spoilers they never, EVER are.
 * Very reactionary development - customer wants something, everything gets dropped and devs scramble to get things in place
 * No timeline for the next year
