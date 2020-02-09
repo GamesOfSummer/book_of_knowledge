@@ -49,7 +49,7 @@ Tell me about a project you were most proud of.
 
 Tell me of a project you'd want a do over in.
 
-How do you handle a project if it's behind?
+How do you handle a project if it's behind? How do you handle tech debt, even if the business doesn't want to handle it?
 
 Hardest issue you've faced?
 
@@ -58,6 +58,8 @@ Recent team experience. Big team? Small? Role?
 Top two programming languages?
 
 How well do you know source control.. Use git? What GUI? Command line? Alias?
+
+What are the steps you take before opening a pull ruquest?
 
 What did you releases look like?
 
