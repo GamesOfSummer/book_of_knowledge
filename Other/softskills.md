@@ -1,4 +1,4 @@
-Developer value goes far beyong coding.
+Developer value goes far beyond coding.
 
 Honestly, you get four hours of work done a day.
 
