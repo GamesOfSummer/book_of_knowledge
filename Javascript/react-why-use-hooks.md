@@ -1,7 +1,8 @@
 ## tl;dr - classes are bad
 
-```
+
 Sophie Alpert
+```
 
 Classes have a ton of boilerplate. Get bloated.
 
@@ -20,9 +21,13 @@ Wanted to solve all 3 problems -
 * huge components
 * confusing classes
 
-these are 3 symptons of one problem
+*these are 3 symptoms of one problem*
 
-problem - react didn't have a simpler stateful primitive than a class compoent
+Problem - react didn't have a simpler stateful primitive than a class compoent
 
-They did use mixins for a while. Mixins are consideres harmful. THey tend to make problems worse.
+They did use mixins for a while. Mixins are considered harmful. THey tend to make problems worse.
+
+Hooks are optional and opt-in only. No breaking changes.
+
+What if I could just use state from a function component? Thus, `useState` was born. No more `this` and no more `this.setState`. Simpler. Local variables.
 
