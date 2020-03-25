@@ -1,9 +1,11 @@
-## tl;dr - classes are bad
 
+
+## React Conf 2018
+### tl;dr - classes are bad
 
 Sophie Alpert
-```
 
+```
 Classes have a ton of boilerplate. Get bloated.
 
 THe lifecycle events get repepitive - onmount, unmount, did update - all have logic for handling subscribe. Gets confusing.
@@ -14,7 +16,7 @@ Classes make hot reloading hard.
 ```
 
 Dan Abramov
-
+```
 Wanted to solve all 3 problems -
 
 * wrapper hell
@@ -22,6 +24,8 @@ Wanted to solve all 3 problems -
 * confusing classes
 
 *these are 3 symptoms of one problem*
+```
+
 
 Problem - react didn't have a simpler stateful primitive than a class compoent
 
@@ -29,5 +33,12 @@ They did use mixins for a while. Mixins are considered harmful. THey tend to mak
 
 Hooks are optional and opt-in only. No breaking changes.
 
-What if I could just use state from a function component? Thus, `useState` was born. No more `this` and no more `this.setState`. Simpler. Local variables.
+`useState` - What if I could just use state from a function component? Thus, `useState` was born. No more `this` and no more `this.setState`. Simpler. Local variables.
 
+**Gotcha** - Hooks must be called at top level. Never in a conditional.
+
+`useEffect` - handle a side effect that a lifecycle method would handle. Runs at start and after every update. Can remove need for `componentDidMount` and `compoenentUpdate` 
+
+Again - you can use classes and hooks side by side. No breaking changes. Did not deprecate classes. Can test the hooks separately.
+
+React sidenote - Compoents are like atoms, in matter. Hooks let you get into the 'electrons' of the atom - hiding in plain sight!
