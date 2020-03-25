@@ -6,5 +6,5 @@ It's something that at some point, being a front end developer needs to know the
 
 THe DOM can get huge. In this day and age, with all the images and fast internet it can get really huge really fast.
 
-A really good answer why the virtual DOM is awesome is it provides a diff against the real DOM, so making updates is fastter. That's a great anwser right there.
+A really good answer why the virtual DOM is awesome is it provides a diff against the real DOM, so making updates is faster. That's a great answer right there.
 
