@@ -1,0 +1,1 @@
+Nutshell - in general, in a Typescript setting, I prefer Saga over Thunk. Saga, while the learning curve is a bit steep because you have to learn Iterators/Generators - leads to cleaner code than Thunk
